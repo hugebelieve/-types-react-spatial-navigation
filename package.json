@@ -1,0 +1,12 @@
+{
+  "name": "@types/react-spatial-navigation",
+  "version": "1.0.0",
+  "description": "Type definition for react-spatial-navigation",
+  "main": "",
+  "types": "index.d.ts",
+  "author": "Bishal",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "*"
+  }
+}
