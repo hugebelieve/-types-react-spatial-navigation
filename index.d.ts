@@ -91,11 +91,14 @@ declare module "@noriginmedia/react-spatial-navigation" {
     left: number;
     width: number;
     height: number;
+    node: Element;
   }
   /* From the docs: "All these properties are optional". It is your responsibility to pass them in. */
   interface PropsApplicableToHOC<P> {
     focusable?: boolean;
     trackChildren?: boolean;
+    autoRestoreFocus?: boolean;
+    blockNavigationOut?: boolean;
     forgetLastFocusedChild?: boolean;
     focusKey?: string;
     onEnterPress?: () => void;
@@ -117,6 +120,8 @@ declare module "@noriginmedia/react-spatial-navigation" {
   interface withFocusableOpts {
     trackChildren?: boolean;
     forgetLastFocusedChild?: boolean;
+    autoRestoreFocus?: boolean;
+    blockNavigationOut?: boolean;
   }
 
   /* https://github.com/typescript-cheatsheets/typescript-utilities-cheatsheet */
