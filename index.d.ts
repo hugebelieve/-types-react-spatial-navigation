@@ -107,7 +107,7 @@ declare module "@noriginmedia/react-spatial-navigation" {
      * @return false to prevent default navigation behaviour.
      */
     onArrowPress?: (d: Direction, o: P) => boolean;
-    onBecameFocused?: (rect: onBecameFocusedRect, ownProps: P) => void;
+    onBecameFocused?: (rect: onBecameFocusedRect, ownProps: P, other: {event: any, other: any}) => void;
   }
 
   function withFocusable(
