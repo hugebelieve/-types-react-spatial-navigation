@@ -1,6 +1,6 @@
 {
   "name": "@types/react-spatial-navigation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type definition for react-spatial-navigation",
   "main": "",
   "types": "index.d.ts",
